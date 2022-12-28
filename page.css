@@ -1,0 +1,154 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: rgba(19, 206, 13, 0.034);
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 20%;
+    background-image: linear-gradient(rgba(187, 186, 192, 0.144), rgb(159, 172, 160) );
+    padding: 10px 20px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.header {
+    background-color: white;
+    min-height: 150px;
+    text-align: center;
+}
+
+.content {
+    background-image: linear-gradient(#eaebf59c, rgba(240, 245, 241, 0.555) );
+    min-height: 300px;
+    padding: 20px;
+    text-align:end;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: rgba(2, 2, 15, 0.699);
+
+}
+.footer {
+    background-image: linear-gradient(rgba(146, 148, 143, 0.466), rgba(232, 238, 234, 0.219) );
+    min-height: 150px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    color:rgb(8, 8, 8);
+}
+
+.table {
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;      
+        color: rgba(2, 2, 15, 0.699);  
+        font-weight: 600;
+}
+
+.table thead {
+    background-color: rgba(0, 0, 0, 0.055);
+}
+
+.table tbody tr:hover td{
+    background-color: rgba(176, 238, 230, 0.247);
+    cursor: pointer;
+    font-weight: 25px;
+}
+
+.table tbody {
+    text-align: center;
+    font-weight: 55px;
+}
+
+.formulario {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.menu h1 {
+    font-family: "Fuzzy Bubbles", cursive;
+    font-size: 52px;
+    color: rgba(45, 107, 221, 0.295);
+    text-shadow: rgb(65, 223, 125) 0.1em 0.1em 0.2em;
+}
+
+.menu h2 a:hover {
+    color: rgba(77, 10, 59, 0.644);
+}
+
+.menu h2 a {
+    color: rgba(87, 53, 78, 0.521);
+}
+
+.main a:hover {
+    color: rgba(10, 162, 173, 0.644);
+}
+
+.main a{
+    color: #e65c5c;
+
+}
+
+.content-btns{
+    text-align: right;
+    text-align: end;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.formulario input{
+    text-align: justify;
+    border-radius: 6px;
+    border: 1px solid hsl(0, 11%, 70%);
+    font-size: 1rem;
+    color: rgba(2, 2, 15, 0.699);  
+    height: 20px;
+    width: 30%;
+    padding: 4px;
+}
+
+.formulario textarea {
+    background-color: rgba(247, 241, 241, 0.507);
+    text-align: justify;
+    border-radius: 6px;
+    border: o.5px solid hsl(0, 22%, 96%);
+    font-size: 1rem;
+    color: #4f5279be;
+    vertical-align: top;
+}
+
+.formulario div button {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    align-items: center;
+    padding: 2px 6px;
+    color: rgb(216, 37, 37);  
+    font-size: 15px;
+}
+
+.formulario :placeholder-shown {
+    font-size: 15px;
+}
+
+.formulario div {
+    margin-bottom: 0.2rem;
+}
+
+.formulario div label {
+    width: 5px;
+    font-weight: 600;
+}
